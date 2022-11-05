@@ -8,11 +8,12 @@ html, body {
   font-family: sans-serif;
   font-weight: 200;
   text-align: center;
+  background-color: #d8d8d8;
 }
 
 h1 {
   text-transform: uppercase;
-  margin: .5em 0;
+  margin: .5em 0 .4em 0;
   color:bisque;
 }
 
@@ -30,15 +31,17 @@ h5 {
 }
 
 .container {
-  width:100%;
+  width:350px;
   background-color: #1A1B21;
   color: #fff;
-  margin:0;
+  margin:10px  auto;
+  border-radius: 10px;
 }
 
 .main-img {
   width: 100%;
   margin:0;
+  border-radius: 10px 10px 0 0 ;
 }
 
 .main-content {
@@ -53,7 +56,8 @@ h5 {
   background-color: #d8d8d8;
   color:#1A1B21;
   border-radius: .7em;
-  padding: 0em 2.5em;
+  padding: 0em 2em;
+  margin: 0 .2em;
 }
 
 a:hover, 
@@ -65,7 +69,7 @@ a:active {
 
 .btn > h2 {
   font-weight: 200;
-  margin: .4em 0;
+  margin: .4em 0em;
 }
 
 .btn-linkedin {
@@ -94,6 +98,7 @@ a:active {
 .footer {
   background-color: #161619;
   color:#d8d8d8;
+  border-radius:0 0 10px 10px;
 }
 
 .social-icon {
@@ -104,6 +109,9 @@ a:active {
 }
 
 @media (min-width: 600px) {
+  .container {
+    width: 600px;
+  }
   h1 {
     margin:0;
   }
@@ -136,6 +144,7 @@ a:active {
 
 @media (min-width: 850px) {
   .container {
+    width: 100%;
     max-width:950px;
     margin:0 auto;
   }
