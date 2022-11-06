@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://mbh206.github.io/React-solo-digital-card/",
+  "homepage": "https://mbh206.github.io/React-solo-digital-card/public/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
